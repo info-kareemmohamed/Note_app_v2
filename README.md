@@ -1,6 +1,6 @@
 # Note_app_v2
-This application was created to train me on Romm and MVVM and RecyclerView and Rxjava and Video record some animation and navigation drawer and bottom navigation 
-and Configuration Changes and To switch from Dark Mode to Light Mode, or vice versa
+This application was created to train me on Romm and MVVM and RecyclerView and Rxjava and Video record and some animation and navigation drawer and bottom navigation 
+and Configuration Changes and To switch from Dark Mode to Light Mode, or vice versa and search view 
 
 App Name: [Notebook]
 
