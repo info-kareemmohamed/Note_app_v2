@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/setting_text_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:padding="@dimen/_15sdp"
+        android:text="@string/setting_theme"
+        android:textColor="#1993A5"
+        android:gravity="center"
+        android:textSize="@dimen/_15ssp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/setting_switchcompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_text_theme"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="#1EF6CCCC"
+        android:padding="@dimen/_15sdp"
+        android:text="@string/setting_mode"
+        android:textColor="#1993A5"
+        android:textSize="@dimen/_17ssp"
+        android:thumb="@drawable/thumb"
+        app:track="@drawable/track" />
+
+</RelativeLayout>

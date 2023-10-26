@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorapp">#32BED3</color>
+    <color name="textheader">#FF000000</color>
+    <color name="textCard">#FF000000</color>
+    <color name="Card">#FFFFFF</color>
+    <color name="voicePlay">#FF000000</color>
+
+
+
+    <color name="card_orange">#F38B53</color>
+    <color name="card_purple">#8690B1</color>
+    <color name="card_yellow">#FFCC00</color>
+    <color name="card_red">#FF3B30</color>
+    <color name="card_violet">#E652FF</color>
+    <color name="card_blue">#5AC8FA</color>
+    <color name="card_green">#34C759</color>
+    <color name="card_gray">#BCBCBC</color>
+    <color name="card_blueLight">#D1FFF1</color>
+    <color name="card_PurpleLight">#E5B5FF</color>
+</resources>

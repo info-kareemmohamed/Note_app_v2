@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/Home"
+        android:title="@string/bottom_nav_main"
+        android:icon="@drawable/ic_home_bottom_nav" />
+
+
+
+    <item android:id="@+id/placeholder"
+        android:title="" />
+
+
+    <item android:id="@+id/Settings"
+        android:title="@string/bottom_nav_settings"
+        android:icon="@drawable/ic_settings_bottom_nav" />
+
+</menu>

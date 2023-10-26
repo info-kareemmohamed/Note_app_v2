@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مفكرة</string>
+    <string name="Navigation_Drawer_Open">open navigation</string>
+    <string name="Navigation_Drawer_close">close navigation</string>
+    <string name="setting_mode">وضع</string>
+    <string name="setting_theme">الوضع</string>
+    <string name="setting_Language">لغة</string>
+    <string name="setting_English">الإنجليزية</string>
+    <string name="setting_Arabic">العربية</string>
+    <string name="setting_LOGIN">LOGIN</string>
+    <string name="toolbar_Favourites">المفضلة</string>
+    <string name="toolbar_Archived">مؤرشف</string>
+    <string name="bottom_nav_main">الرئيسية</string>
+    <string name="bottom_nav_settings">إعدادات</string>
+    <string name="note_Title">العنوان</string>
+    <string name="note_Note">الملحوظه</string>
+    <string name="note_Choose_color">اختر اللون</string>
+    <string name="main_Search">بحث</string>
+    <string name="swipeSnackbarRecovery">استرداد</string>
+    <string name="swipeSnackbarDelete">مسح</string>
+    <string name="swipeSnackbarUndo">رجوع</string>
+
+
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Card_View"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120sdp"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_10sdp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:id="@+id/Card_Color"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/Card_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_toStartOf="@id/Card_Favourite"
+            android:layout_toEndOf="@+id/Card_Color"
+            android:maxLines="1"
+            android:textColor="@color/textCard"
+            android:textSize="@dimen/_18ssp" />
+
+        <TextView
+            android:id="@+id/Card_Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Card_Title"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_toStartOf="@id/Card_Favourite"
+            android:layout_toEndOf="@+id/Card_Color"
+            android:maxLines="2"
+            android:textSize="@dimen/_10ssp" />
+
+        <ImageView
+            android:id="@+id/Card_Favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:src="@drawable/ic_favorite_40" />
+
+        <ImageView
+            android:id="@+id/Card_Record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Card_Favourite"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:src="@drawable/ic_voice_dark_40" />
+
+        <TextView
+            android:id="@+id/Card_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Card_Color"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:textColor="@color/textCard"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

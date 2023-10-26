@@ -1,0 +1,29 @@
+<resources>
+
+
+    <string name="app_name">Notebook</string>
+    <string name="Navigation_Drawer_Open">open navigation</string>
+    <string name="Navigation_Drawer_close">close navigation</string>
+    <string name="setting_mode">Mode</string>
+    <string name="setting_theme">THEME</string>
+    <string name="setting_Language">LANGUAGE</string>
+    <string name="setting_English">English</string>
+    <string name="setting_Arabic">العربية</string>
+    <string name="setting_LOGIN">LOGIN</string>
+    <string name="toolbar_Favourites">Favourites</string>
+    <string name="toolbar_Archived">Archived</string>
+    <string name="bottom_nav_main">Main</string>
+    <string name="bottom_nav_settings">Settings</string>
+    <string name="note_Title">Title</string>
+    <string name="note_Note">Note</string>
+    <string name="note_Choose_color">Choose color</string>
+    <string name="main_Search">Search</string>
+    <string name="swipeSnackbarRecovery">Recovery</string>
+    <string name="swipeSnackbarDelete">Delete</string>
+    <string name="swipeSnackbarUndo">Undo</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

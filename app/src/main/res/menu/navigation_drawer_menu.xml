@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+
+
+
+    <group android:checkableBehavior="single">
+
+
+
+
+
+
+        <item
+            android:id="@+id/Home"
+            android:title="@string/bottom_nav_main"
+            android:icon="@drawable/ic_home_bottom_nav"
+
+
+            />
+
+        <item
+
+            android:id="@+id/NavigationDrawer_Favourites"
+            android:title="@string/toolbar_Favourites"
+            android:icon="@drawable/ic_favorite_nav_drawer"
+
+            />
+
+        <item
+            android:id="@+id/NavigationDrawer_Archived"
+            android:title="@string/toolbar_Archived"
+            android:icon="@drawable/ic_auto_delete_nav_drawer"
+            />
+
+    </group>
+
+
+
+
+
+</menu>
